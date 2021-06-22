@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans&display=swap');
+.search-input-container {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-input {
+    width: 90%;
+    height: 25%;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding: 4px;
+    font-family: 'Abel', sans-serif;
+    background-color: inherit;
+}
+
+.search-input:focus {
+    outline: none;
+}

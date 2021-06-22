@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Lato:wght@700&display=swap');
+.priority-input-section {
+    margin: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.priority-input {
+    width: 20px;
+    height: 20px;
+}

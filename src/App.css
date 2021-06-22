@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cuprum:wght@600&display=swap');
+.new-todo-section {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  width: 70%;
+}
+
+.filter-select-container {
+  width: 20%;
+  height: 40% ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-select {
+  width: 60%;
+  height: 70%;
+  font-size: 1.4rem;
+  border: none;
+  border-bottom: 2px solid rgb(191, 90, 90);
+  background-color: inherit;
+  font-family: 'Abel', sans-serif;
+
+}
+
+.filter-select:focus {
+  outline: none;
+}
+
+.filter-text {
+  font-size: 1.3rem;
+  margin: 8px;
+  font-family: 'Abel', sans-serif;
+  color: rgb(87, 87, 87);
+}

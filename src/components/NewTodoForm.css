@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cuprum:wght@600&display=swap');
+
+.new-todo-form {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.new-todo-input {
+    width: 50%;
+    height: 45%;
+    font-size: 1.5rem;
+    font-family: 'Abel', sans-serif;
+    border-radius: 15px 0 0 15px;
+    border: 1px solid #dadada;
+    padding: 4px;
+
+}
+
+.new-todo-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #b4cab1;
+}
+
+.new-todo-button {
+    width: 10%;
+    height: 45%;
+    border: none;
+    background-color: #aed4ae;
+    color: #fafafa;
+    font-size: 1.6rem;
+    transition: .6s;
+    font-family: 'Cuprum', sans-serif;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+}
+
+.new-todo-button:disabled {
+    background-color: rgb(240, 240, 240);
+    color: rgb(197, 197, 197);
+}
+
+.new-todo-button:hover {
+    background-color: #6bb952;
+    box-shadow: 0 0 5px #b4cab1;
+    transition: .6s;
+}
